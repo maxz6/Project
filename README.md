@@ -60,6 +60,23 @@
 
 [Загрузить Альт Образование 11](https://download.basealt.ru/pub/distributions/ALTLinux/p11/images/education/x86_64/alt-education-11.0-x86_64.iso)
 
+
+### Настройки VSCode
+
+- Включить масштабирование по Ctrl+Wheel
+    - Settings -> zoom -> Mouse Wheel Zoom
+- Отключить Мини-карту в редакторе
+    - Settings -> Editor -> Minimap:
+
+Установка расширений
+
+- Five Server
+    - [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)
+- CodeSnap
+    - [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
+- Trailing Spaces
+    - [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+
 ### Рекомендуемые навыки и умения
 
 1. "Слепая печать" на стандартной клавиатуре
@@ -119,7 +136,6 @@ git add .
 
 #### 8. Закоммитить
 
-
 ```shell
 git commit -m "Some message"
 ```
@@ -128,6 +144,12 @@ git commit -m "Some message"
 
 ```shell
 git push
+```
+
+или, если не получилось с 1-го раза запушить, то:
+
+```shell
+git push -u origin master
 ```
 
 #### 10. Проверить изменения на сайте удалённого репозитория
