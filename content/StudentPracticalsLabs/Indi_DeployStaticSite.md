@@ -1,4 +1,4 @@
-## Индивидуальный проект статичесого сайта с CI/CD на GitHub Pages
+## Индивидуальный проект статического сайта с CI/CD на GitHub Pages
 
 [Пример](/content/DevOps/CI_CD/Pipelines/CI_Deploy_GitHub_Pages.md)
 
@@ -11,5 +11,9 @@
 - Главное окно репозитория проекта должно содержать прямые кликабельные ссылки на сайт проекта (в **About**), **Deployments** (история деплоев) и **Environments** (https://github.com/<ВАШ-USERNAME>/hello-pages/settings/environments)
 - Сделайте **три** обновления сайта (отредактируйте какие-нибудь его страницы) с коммитами и пушами.
 - В **Deployments** проекта должно быть не менее 3-х **deployments**
+
+***
+
+- [GitHub Pages Документация](https://docs.github.com/ru/pages)
 
 > Если вы обнаружили ошибку в этом тексте — сообщите пожалуйста автору!
